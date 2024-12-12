@@ -1,6 +1,6 @@
 import HeaderComponent from './components/HeaderComponent'
 import MainComponent from './components/MainComponent'
-/* import FooterComponent from './components/FooterComponent' */
+import FooterComponent from './components/FooterComponent'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <HeaderComponent />
       <MainComponent />
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </>
   )
 }
