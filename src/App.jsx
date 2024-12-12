@@ -1,4 +1,6 @@
-
+import HeaderComponent from './components/HeaderComponent'
+/* import MainComponent from './components/MainComponent'
+import FooterComponent from './components/FooterComponent' */
 
 
 function App() {
@@ -6,8 +8,9 @@ function App() {
 
   return (
     <>
-
-    
+      <HeaderComponent />
+      {/* <MainComponent />
+      <FooterComponent /> */}
     </>
   )
 }
